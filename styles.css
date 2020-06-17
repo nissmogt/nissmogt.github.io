@@ -1,7 +1,9 @@
-<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap" rel="stylesheet">
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@800&display=swap');
 
 html, body {
-    font-family: 'Vollkorn', serif;
+  font-family: 'Vollkorn';
+  font-weight: 300;
 }
 
 .header {
