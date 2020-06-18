@@ -1,12 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
 
 html, body {
   font-family: 'Vollkorn';
   font-weight: 300;
 }
 
-.header {
+.navbar {
   width: 100%;
   border-bottom: 1px solid black;
   text-align: right;
@@ -21,6 +22,18 @@ html, body {
     padding: 26px;
     border-right: 1px solid black;
   }
+}
+
+.name {
+    font-family: 'El Messiri', sans-serif;
+}
+
+.header-text {
+  font-family: 'El Messiri', sans-serif;
+}
+
+.body-text {
+  font-family: 'Vollkorn', sans-serif;
 }
 
 .link {
