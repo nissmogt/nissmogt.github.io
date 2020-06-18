@@ -1,9 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
 
 html, body {
-  font-family: 'Vollkorn';
+  font-family: 'El Messiri', sans-serif;
   font-weight: 300;
 }
 
@@ -12,16 +12,6 @@ html, body {
   border-bottom: 1px solid black;
   text-align: right;
   position: relative;
-  
-  .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 32px;
-    font-weight: 100;
-    padding: 26px;
-    border-right: 1px solid black;
-  }
 }
 
 .name {
@@ -29,11 +19,17 @@ html, body {
 }
 
 .header-text {
-  font-family: 'El Messiri', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
 .body-text {
   font-family: 'Vollkorn', sans-serif;
+  padding-top: 1px;
+  padding-right: 490px;
+  padding-bottom: 50px;
+  padding-left: 70px;
 }
 
 .link {
@@ -60,8 +56,8 @@ html, body {
   
   &:hover {
     .bar {
-      opacity: 1;
-      bottom: 5px;
+      opacity: 0.2;
+      bottom: 6px;
     }
   }
 }
